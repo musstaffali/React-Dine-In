@@ -2,16 +2,16 @@
     height:50px;
     width:auto;
     border-radius: 200px;
-    border:1px solid #ff652f;
+    border:1px solid transparent;
     padding:10px 25px;
     text-align: center;
-    background-color: #ff652f;
+    background-color: transparent;
     display: inline-block;
     transition: all 0.4s ease;
     cursor:pointer;
 }
 .grab a{
-    color:#fff;
+    color:gold;
     text-decoration:none;
 }
 .grab p{
@@ -21,8 +21,8 @@
     font-size: 110%;
 }
 .grab:hover,.grab:active{
-    background-color:#d93800;
-    border:1px solid #d93800;
+    background-color:transparent;
+    border:1px solid transparent;
 }
 @media screen and (max-width:1170px){
     .grab{

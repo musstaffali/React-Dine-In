@@ -1,16 +1,15 @@
 .brand{
     display: inline-block;
-    background-color: #242424;
+    background-color: transparent;
     opacity: 0;
     z-index:50;
-    border:1px solid #242424;
+    border:1px solid white;
     height: 0;
     width: 0;
     padding:20px 60px;
     overflow: hidden;
     border-radius: 250px;
     margin-top:12vh;
-    /* animation: 0.6s show; */
     transition: all 0.7s ease-in-out; 
 }
 .show{
@@ -27,7 +26,7 @@
 }
 .brandnum{
     display: inline-block;
-    color: #14A76C;
+    color: wheat;
     font-weight: bold;
     font-size:600%;
     padding-right:10px;
@@ -36,8 +35,8 @@
     font-size:320%;
     vertical-align: text-bottom;
     font-weight: 300;
-    text-shadow:2px  #FFE400;
-    color:#FFE400;
+    text-shadow:2px  black;
+    color: gold;
     display: inline-block;
 }
 @media screen and (max-width:550px){
@@ -70,6 +69,6 @@
     padding-top:110px;
     padding-left:150px;
     font-weight: 400;
-    color:#14A76C;
+    color:white;
     font-size:130%;
 }
