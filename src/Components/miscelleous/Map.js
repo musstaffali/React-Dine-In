@@ -12,8 +12,8 @@ export class MapContainer extends React.Component {
         };
         return (
           <Map style={style}  initialCenter={{
-            lat: 26.4445191,
-            lng: 80.2841572
+            lat: 25.3232,
+            lng: 51.5410
           }} google={this.props.google} zoom={14}>
     
             <Marker onClick={this.onMarkerClick}
