@@ -11,11 +11,11 @@ const brand=(props)=>{
     return(
         <div className={all_class.join(" ")}>
             {/* <p className="brandnum">2</p> */}
-            <p className="name">Nobu Qatar</p>
+            <p className="name">Barjr Qatar</p>
             {/* <div className="image-container">
             <img src={logo} alt="Compoany Logo"/>
             </div> */}
-            <p className="lastTitle">Japanese Restaurant</p>
+            <p className="lastTitle">Burger, Fries, Shakes, and more</p>
         </div>
 
     );
